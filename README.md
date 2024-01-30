@@ -16,7 +16,7 @@ Asegúrate de tener Python instalado. Puedes instalar las dependencias utilizand
 
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 
 
