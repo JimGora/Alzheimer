@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on classifying cell images into four categories using the EfficientNetB0 model. The dataset utilized is based on the ABC paper, and the goal is to develop an accurate model for cell classification.
+This project focuses on classifying cell images into four categories using the EfficientNetB0 model. The Chaoyang dataset utilized is based on the "Hard Sample Aware Noise Robust Learning for Histopathology Image Classification" paper, and the goal is to develop an accurate-simple model for cell classification as Capstone 2 project for ML Zoomcamp 2023.
 
 ## Table of Contents
 
@@ -16,11 +16,27 @@ This project focuses on classifying cell images into four categories using the E
 
 ## Introduction
 
-Cell classification is a crucial task in the field of [insert relevant field]. This project employs the state-of-the-art EfficientNetB0 model to accurately categorize cell images, aiming to contribute to advancements in [insert specific objectives or goals].
+Cell classification is a crucial task in the field of cancer diagnosis. This project employs the state-of-the-art EfficientNetB0 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
 
 ## Dataset
 
-The dataset used in this project is derived from the ABC paper [insert citation]. It consists of a diverse set of cell images labeled into four distinct categories. The dataset is preprocessed and divided into training, validation, and testing sets.
+The dataset used in this project is derived from the ["Hard Sample Aware Noise Robust Learning for Histopathology Image Classification"](https://ieeexplore.ieee.org/document/9600806) paper. It consists of a diverse set of cell images labeled into four distinct categories. 
+
+- (0) Normal cells.
+- (1) Serrated cells.
+- (2) Adenocarcinoma cells.
+- (3) Adenoma cells. 
+
+The dataset is preprocessed and divided into training, validation, and testing sets.
+
+```bash
+@article{zhuhard,
+  title={Hard Sample Aware Noise Robust Learning for Histopathology Image Classification},
+  author={Zhu, Chuang and Chen, Wenkai and Peng, Ting and Wang, Ying and Jin, Mulan},
+  journal={IEEE transactions on medical imaging}
+}
+```
+
 
 ## Model Architecture
 
@@ -47,18 +63,7 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
 
 This project uses TensorFlow/Keras and the EfficientNetB0 architecture to perform image classification on a 4-category dataset.
 
-## Data Source
 
-The proejct builds a ML model; trained, validated and tested using the dataset from the paper:
-["Hard Sample Aware Noise Robust Learning for Histopathology Image Classification"](https://ieeexplore.ieee.org/document/9600806)
-
-```bash
-@article{zhuhard,
-  title={Hard Sample Aware Noise Robust Learning for Histopathology Image Classification},
-  author={Zhu, Chuang and Chen, Wenkai and Peng, Ting and Wang, Ying and Jin, Mulan},
-  journal={IEEE transactions on medical imaging}
-}
-```
 
 ## Repository Structure
 
