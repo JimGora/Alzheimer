@@ -7,16 +7,26 @@ This project focuses on classifying cell images into four categories using the E
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Repository Structure](#repository-structure)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+- [Future Improvement](#future-improvement)
 - [License](#license)
 
 ## Introduction
 
 Cell classification is a crucial task in the field of cancer diagnosis. This project employs the state-of-the-art EfficientNetB0 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
+
+## Repository Structure
+
+- `data/`: Contains the training, validation and testing data sets.
+- `notebooks/`: Python scripts for model manipulation and visualizations.
+- `src/`: Project source code, including the training and evaluation script.
+- `saved_models/`: Directory to store the trained models.
+- `requirements.txt`: List of necessary dependencies and versions.
 
 ## Dataset
 
@@ -37,7 +47,6 @@ The dataset is preprocessed and divided into training, validation, and testing s
 }
 ```
 
-
 ## Model Architecture
 
 The model architecture chosen for this project is EfficientNetB0. EfficientNetB0 is a powerful convolutional neural network known for its efficiency and high performance in image classification tasks. The model has been fine-tuned on the cell dataset to optimize its performance for this specific task.
@@ -46,53 +55,28 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
 
 ### Requirements
 
-- Python (version x.x.x)
-- TensorFlow (version x.x.x)
-- Other dependencies...
+- Python (version 3.10.12)
+- TensorFlow (version 2.15.10)
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/cell-classification.git
+   git clone https://github.com/JimGora/Classification.git
    cd cell-classification
 
+## Acknowledgments
+Acknowledge any specific individuals, organizations, or tools that contributed to the project.
+Express gratitude to the authors of the ABC paper for providing the dataset.
 
-# Histopatology Image Classification
+## Contact
+For any inquiries or issues, please contact:
 
-This project uses TensorFlow/Keras and the EfficientNetB0 architecture to perform image classification on a 4-category dataset.
+Jimmy Gora: jimmy.r.gora@gmail.com
 
-
-
-## Repository Structure
-
-- `data/`: Contains the training, validation and testing data sets.
-- `notebooks/`: Python scripts for model manipulation and visualizations.
-- `src/`: Project source code, including the training and evaluation script.
-- `saved_models/`: Directory to store the trained models.
-- `requirements.txt`: List of necessary dependencies and versions.
-
-
-## Environment Configuration
-
-Make sure you have Python installed. You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
-
-
-
-## Setting parameters
-You can adjust the model parameters by editing the src/train_model.py file. Experiment with learning rate, batch size, and other hyperparameters as necessary.
-
-## Results
-The model results can be found in the notebook notebooks/analysis.ipynb. Includes performance metrics and views.
-
-## Contributions
-Contributions are welcome. If you find issues or improvements, please create an issue or submit a pull request.
+## Future Improvements
+Train a different model and compare with other dataset to improve the model.
 
 ## License
 This project is under the MIT license.
