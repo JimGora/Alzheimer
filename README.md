@@ -1,4 +1,4 @@
-# Cell Classification Project
+# Histopathology Image Classification Project
 
 ## Overview
 
@@ -64,7 +64,7 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
 
    ```bash
    git clone https://github.com/JimGora/Classification.git
-   cd cell-classification
+   cd Classification
 
 ## Acknowledgments
 
