@@ -67,12 +67,13 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
    cd cell-classification
 
 ## Acknowledgments
-Acknowledge any specific individuals, organizations, or tools that contributed to the project.
-Express gratitude to the authors of the ABC paper for providing the dataset.
+
+This project is the culmination of the ML Zoomcamp 2023 program led by Alexey Grigorev, his expertise and dedication played a crucial role in shaping this project and expanding my understanding of Machine Learning.
+
+Special thanks to Chuang Zhu [email: czhu@bupt.edu.cn] for providing the foundational dataset used in this project.
 
 ## Contact
 For any inquiries or issues, please contact:
-
 Jimmy Gora: jimmy.r.gora@gmail.com
 
 ## Future Improvements
