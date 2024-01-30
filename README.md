@@ -21,14 +21,14 @@ pip install -r requirements.txt
 
 
 
-Ajuste de Parámetros
+## Ajuste de Parámetros
 Puedes ajustar los parámetros del modelo editando el archivo src/train_model.py. Experimenta con la tasa de aprendizaje, tamaño del lote, y otros hiperparámetros según sea necesario.
 
-Resultados
+## Resultados
 Los resultados del modelo se pueden encontrar en el cuaderno notebooks/analysis.ipynb. Incluye métricas de rendimiento y visualizaciones.
 
-Contribuciones
+## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras problemas o mejoras, crea un problema o envía una solicitud de extracción.
 
-Licencia
+## Licencia
 Este proyecto está bajo la licencia MIT.
