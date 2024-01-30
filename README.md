@@ -69,8 +69,6 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
 
 ## Results
 
-## Results
-
 The model was trained and evaluated on the cell classification dataset. The following metrics provide insights into the performance of the model:
 
 - **Accuracy:** 87.56%
