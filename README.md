@@ -1,6 +1,19 @@
 # Proyecto de Clasificación de Imágenes con EfficientNetB0
 
-Este proyecto utiliza TensorFlow/Keras y la arquitectura EfficientNetB0 para realizar la clasificación de imágenes en un conjunto de datos de 4 categorías. El modelo se entrena, valida y prueba utilizando un conjunto de datos específico.
+Este proyecto utiliza TensorFlow/Keras y la arquitectura EfficientNetB0 para realizar la clasificación de imágenes en un conjunto de datos de 4 categorías.
+
+
+## Data Source
+
+The proejct builds a model trained, validated and tested using the dataset from the paper:
+["Hard Sample Aware Noise Robust Learning for Histopathology Image Classification"](https://ieeexplore.ieee.org/document/9600806){:target="_blank"}
+
+@article{zhuhard,
+  title={Hard Sample Aware Noise Robust Learning for Histopathology Image Classification},
+  author={Zhu, Chuang and Chen, Wenkai and Peng, Ting and Wang, Ying and Jin, Mulan},
+  journal={IEEE transactions on medical imaging}
+}
+
 
 ## Estructura del Repositorio
 
@@ -9,6 +22,7 @@ Este proyecto utiliza TensorFlow/Keras y la arquitectura EfficientNetB0 para rea
 - `src/`: Código fuente del proyecto, incluyendo el script de entrenamiento y evaluación.
 - `saved_models/`: Directorio para almacenar los modelos entrenados.
 - `requirements.txt`: Lista de dependencias y versiones necesarias.
+
 
 ## Configuración del Entorno
 
@@ -32,31 +46,3 @@ Las contribuciones son bienvenidas. Si encuentras problemas o mejoras, crea un p
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
-
-
-
-# Mi Proyecto
-
-Este es mi increíble proyecto.
-
-<details>
-<summary>Mostrar más</summary>
-
-## Detalles adicionales
-
-Esto es información adicional sobre mi proyecto.
-
-</details>
-
-<style>
-/* Puedes agregar estilos básicos aquí */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
-
-h1 {
-  color: #333;
-}
-
-</style>
