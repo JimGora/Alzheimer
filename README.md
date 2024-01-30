@@ -32,3 +32,31 @@ Las contribuciones son bienvenidas. Si encuentras problemas o mejoras, crea un p
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
+
+
+
+# Mi Proyecto
+
+Este es mi increíble proyecto.
+
+<details>
+<summary>Mostrar más</summary>
+
+## Detalles adicionales
+
+Esto es información adicional sobre mi proyecto.
+
+</details>
+
+<style>
+/* Puedes agregar estilos básicos aquí */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+</style>
