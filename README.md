@@ -1,11 +1,56 @@
+# Cell Classification Project
+
+## Overview
+
+This project focuses on classifying cell images into four categories using the EfficientNetB0 model. The dataset utilized is based on the ABC paper, and the goal is to develop an accurate model for cell classification.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Cell classification is a crucial task in the field of [insert relevant field]. This project employs the state-of-the-art EfficientNetB0 model to accurately categorize cell images, aiming to contribute to advancements in [insert specific objectives or goals].
+
+## Dataset
+
+The dataset used in this project is derived from the ABC paper [insert citation]. It consists of a diverse set of cell images labeled into four distinct categories. The dataset is preprocessed and divided into training, validation, and testing sets.
+
+## Model Architecture
+
+The model architecture chosen for this project is EfficientNetB0. EfficientNetB0 is a powerful convolutional neural network known for its efficiency and high performance in image classification tasks. The model has been fine-tuned on the cell dataset to optimize its performance for this specific task.
+
+## Usage
+
+### Requirements
+
+- Python (version x.x.x)
+- TensorFlow (version x.x.x)
+- Other dependencies...
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/cell-classification.git
+   cd cell-classification
+
+
 # Histopatology Image Classification
 
 This project uses TensorFlow/Keras and the EfficientNetB0 architecture to perform image classification on a 4-category dataset.
 
 ## Data Source
 
-The proejct builds a model trained, validated and tested using the dataset from the paper:
-["Hard Sample Aware Noise Robust Learning for Histopathology Image Classification"](https://ieeexplore.ieee.org/document/9600806){:target="_blank"}
+The proejct builds a ML model; trained, validated and tested using the dataset from the paper:
+["Hard Sample Aware Noise Robust Learning for Histopathology Image Classification"](https://ieeexplore.ieee.org/document/9600806)
 
 ```bash
 @article{zhuhard,
@@ -18,7 +63,7 @@ The proejct builds a model trained, validated and tested using the dataset from 
 ## Repository Structure
 
 - `data/`: Contains the training, validation and testing data sets.
-- `notebooks/`: Jupyter notebooks with additional analysis and visualizations.
+- `notebooks/`: Python scripts for model manipulation and visualizations.
 - `src/`: Project source code, including the training and evaluation script.
 - `saved_models/`: Directory to store the trained models.
 - `requirements.txt`: List of necessary dependencies and versions.
